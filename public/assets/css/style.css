@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+a {
+    text-decoration-line: none;
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.82);
+}
+
+div > ul {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+div > ul > li {
+    list-style-type: none;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+
+#user {
+    border: 0.1rem solid rgba(0, 0, 0, 0.24);
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover:hover {
+    text-decoration-line: underline;
+}
+
+#logo {
+    text-align: center;
+    margin: 5rem 0;
+}
+
+#woordle {
+    width: 35rem
+}
+
+input[type=search] {
+    width: 50rem;
+    padding: 1.2rem;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 15px -4px #000000;
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#balls {
+    margin: 5rem auto;
+    border: 0.1rem solid black;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.ball {
+    border: 0.1rem solid black;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+#add {
+    font-size: 4rem;
+}
