@@ -68,14 +68,12 @@ input[type=search] {
 
 #balls {
     margin: 5rem auto;
-    border: 0.1rem solid black;
     width: 50%;
     display: flex;
     justify-content: center;
 }
 
 .ball {
-    border: 0.1rem solid black;
     width: 6rem;
     height: 6rem;
     border-radius: 100%;
@@ -94,4 +92,16 @@ input[type=search] {
 
 #add {
     font-size: 4rem;
+}
+
+#google {
+    background-image: url("/assets/img/google.png");
+}
+
+#facebook {
+    background-image: url("/assets/img/facebook.jpg");
+}
+
+#addBall {
+    border: 0.1rem solid rgba(0, 0, 0, 0.31);
 }
